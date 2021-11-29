@@ -11,8 +11,8 @@ int main()
 	start_driver();
 	cout << endl;
 
-	// injector (Respawn001 - apex legends window class name)
-	face_injecor_v2(xor_a("Respawn001"), xor_w(L"test.dll"));
+	// injector ("R6Game"- apex legends window class name)
+	face_injecor_v2(xor_a("R6Game"), xor_w(default"test.dll"));
 
 	cout << endl;
 	system("pause");
